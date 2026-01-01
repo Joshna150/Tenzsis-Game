@@ -1,16 +1,26 @@
-# React + Vite
+# Tenzsis Game 🎲
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tenzsis is a fun and interactive dice game built using **React**. Roll the dice, hold the ones you like, and try to make all dice show the same value. Celebrate your win with confetti!
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Roll dice and hold selected dice.
+- Win detection with all dice showing the same value.
+- Confetti animation on winning.
+- Fully responsive design.
+- Simple and clean UI.
 
-## React Compiler
+## How to Play
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Click the "Roll" button to roll all dice.
+2. Click individual dice to hold their values.
+3. Keep rolling until all dice show the same number.
+4. Once all dice match, click "New Game" to restart.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- CSS (no frameworks)
+- nanoid for unique IDs
+- react-confetti for celebration
+
